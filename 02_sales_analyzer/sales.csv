@@ -1,0 +1,11 @@
+Date,Product,Category,Price,Quantity
+2025-01-01,Laptop,Electronics,1200,2
+2025-01-01,Mouse,Electronics,25,10
+2025-01-02,Keyboard,Electronics,70,5
+2025-01-02,Chair,Furniture,180,3
+2025-01-03,Desk,Furniture,350,2
+2025-01-03,Monitor,Electronics,400,4
+2025-01-04,Laptop,Electronics,1200,1
+2025-01-04,Chair,Furniture,180,2
+2025-01-05,Mouse,Electronics,25,20
+2025-01-05,Desk,Furniture,350,1
