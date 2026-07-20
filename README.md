@@ -4,30 +4,30 @@ This repository documents my journey learning Python, Data Analysis and Machine 
 
 Completed projects:
 
-✅ 01 - Python Refresh
+01 - Python Refresh
 - functions
 - dictionaries
 - sorting
 - lambda
 
-✅ 02 - Pandas Basics
+02 - Pandas Basics
 - CSV loading
 - filtering
 - groupby
 - aggregations
 
-✅ 03 - Data Cleaning
+03 - Data Cleaning
 - missing values
 - duplicates
 - data types
 
-✅ 04 - Data Visualization
+04 - Data Visualization
 - matplotlib
 - histograms
 - bar charts
 - scatter plots
 
-✅ 05 - NumPy Statistics
+05 - NumPy Statistics
 - statistics
 - percentiles
 - outlier detection
