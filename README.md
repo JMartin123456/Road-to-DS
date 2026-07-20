@@ -1,6 +1,6 @@
 Road to Data Science
 
-This repository documents my journey learning Python, Data Analysis and Machine Learning.
+This repository documents my learning Python, Data Analysis and Machine Learning.
 
 Completed projects:
 
