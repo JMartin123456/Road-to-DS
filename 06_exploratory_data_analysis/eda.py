@@ -2,6 +2,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # ==========================
 #Load from file
@@ -33,6 +34,30 @@ def clean_duplicates(df):
     df = df.drop_duplicates()
 
     return df
+
+def clean_salary_outliers(df):
+
+    q1 = np.percentile(df["Salary"], 25)
+    q3 = np.percentile(df["Salary"], 75)
+
+    iqr = q3 - q1
+
+    lower = q1 - 1.5 * iqr
+    upper = q3 + 1.5 * iqr
+
+    clean_df = df[
+        (df["Salary"] >= lower) &
+        (df["Salary"] <= upper)
+    ]
+
+    outliers = df[
+        (df["Salary"] < lower) |
+        (df["Salary"] > upper)
+    ]
+
+    print(outliers)
+
+    return clean_df
 
 def data_validation(df):
     # Data Validation
@@ -67,6 +92,38 @@ def date_repair(df):
     print(df.dtypes)
 
     return df
+
+def create_scatter_plot(df, x_column, y_column, title):
+    plt.figure(figsize=(8, 5))
+
+    plt.scatter(
+        df[x_column],
+        df[y_column]
+    )
+
+    plt.xlabel(x_column)
+    plt.ylabel(y_column)
+    plt.title(title)
+
+    plt.grid(True)
+
+    plt.show()
+    plt.close()
+
+def create_bar_plot(df, x_column):
+    plt.figure(figsize=(8, 5))
+
+    counts = df[x_column].value_counts()
+    plt.bar(counts.index, counts.values)
+
+    plt.xlabel(x_column)
+    plt.ylabel("Count")
+    plt.title(f"{x_column} Distribution")
+
+    plt.grid(axis="y", alpha=0.3)
+
+    plt.show()
+    plt.close()
 
 # ==========================
 # Data quality check and data cleaning
@@ -174,3 +231,123 @@ print(df.groupby(["Department", "ExperienceGroup"]).size().unstack(level=-1))
 
 # The group of employees with 6–10 years of experience has the lowest average salary. 
 # Detailed analysis showed that this group does not include empoyees from the IT and Operations, which are the best paid.
+
+# 3) Education vs Salary, Does employees with higher education earn more ?
+
+salary_by_education_mean = df.groupby("Education")["Salary"].mean()
+salary_by_education_median = df.groupby("Education")["Salary"].median()
+salary_by_education_size = df.groupby("Education")["Salary"].size()
+salary_by_education_std = df.groupby("Education")["Salary"].std()
+
+salary_vs_education = pd.DataFrame({
+    "Mean": salary_by_education_mean,
+    "Median": salary_by_education_median,
+    "Size": salary_by_education_size,
+    "Std": salary_by_education_std
+})
+
+salary_vs_education["Difference"] = salary_vs_education["Mean"] - salary_vs_education["Median"]
+
+print()
+print("Salary vs education")
+print(salary_vs_education)
+
+print()
+print("Education Master")
+print(df.loc[
+    df["Education"] == "Master",
+    ["Name", "Department", "Salary", "Experience"]
+].sort_values("Salary")
+)
+
+# Education alone does not show a clear linear relationship with salary. 
+# The results are significantly influenced by extreme values.
+
+# 4) PerformanceScore vs Salary. Does people with better skore earn more?
+
+
+df_without_salary_outliers = clean_salary_outliers(df)
+
+print(df.shape)
+print(df_without_salary_outliers.shape)
+
+df_without_salary_outliers["PerfromanceScoreGroup"] = pd.cut(
+    df["PerformanceScore"],
+    bins=[2.5, 3, 3.5, 4, 4.5, 5],
+    labels=[
+        "2.5 to 3",
+        "3 to 3.5",
+        "3.5 to 4",
+        "4 to 4.5",
+        "4.5+"
+    ]
+)
+
+salary_by_performance_mean = df_without_salary_outliers.groupby("PerfromanceScoreGroup")["Salary"].mean()
+salary_by_performance_median = df_without_salary_outliers.groupby("PerfromanceScoreGroup")["Salary"].median()
+salary_by_performance_size = df_without_salary_outliers.groupby("PerfromanceScoreGroup")["Salary"].size()
+salary_by_performance_std = df_without_salary_outliers.groupby("PerfromanceScoreGroup")["Salary"].std()
+
+salary_vs_performance = pd.DataFrame({
+    "Mean": salary_by_performance_mean,
+    "Median": salary_by_performance_median,
+    "Size": salary_by_performance_size,
+    "Std": salary_by_performance_std
+})
+
+salary_vs_performance["Difference"] = salary_vs_performance["Mean"] - salary_vs_performance["Median"]
+
+print()
+print("Salary vs performance")
+print(salary_vs_performance)
+
+# After removing extreme salary observations, no clear relationship between PerformanceScore and Salary was identified.
+
+correlation = df.corr(numeric_only=True)
+
+print(correlation)
+
+# ==========================
+# Graphs
+# ==========================
+
+# Experience vs Salary
+# original
+create_scatter_plot(df, "Experience", "Salary", "Experience vs Salary")
+
+# clean
+create_scatter_plot(df_without_salary_outliers, "Experience", "Salary", "Experience vs Salary")
+
+# Performance vs Salary 
+# original
+create_scatter_plot(df, "PerformanceScore", "Salary", "PerfromanceScore vs Salary")
+
+# clean
+create_scatter_plot(df_without_salary_outliers, "PerformanceScore", "Salary", "PerfromanceScore vs Salary")
+
+# Age vs Salary 
+# original
+create_scatter_plot(df, "Age", "Salary", "Age vs Salary")
+
+# clean
+create_scatter_plot(df_without_salary_outliers, "Age", "Salary", "Age vs Salary")
+
+correlation_clean = df_without_salary_outliers.corr(numeric_only=True)
+print(correlation_clean)
+
+create_bar_plot(df, "Department")
+create_bar_plot(df, "Education")
+
+plt.figure(figsize=(6, 5))
+
+sns.heatmap(
+    correlation,
+    annot=True,
+    cmap="coolwarm",
+    fmt=".2f"
+)
+
+plt.title("Correlation Heatmap")
+
+plt.show()
+plt.close()

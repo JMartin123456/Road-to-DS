@@ -31,3 +31,17 @@ Completed projects:
 - statistics
 - percentiles
 - outlier detection
+
+06 - Exploratory Data Analysis (EDA)
+- data exploration workflow
+- salary analysis
+- group comparisons
+- mean vs median analysis
+- standard deviation analysis
+- correlation analysis
+- heatmaps
+- scatter plots
+- categorical distributions
+- outlier impact analysis
+- IQR-based outlier filtering
+- data-driven conclusions
