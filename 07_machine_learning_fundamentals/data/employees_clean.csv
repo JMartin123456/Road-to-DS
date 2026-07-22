@@ -1,0 +1,116 @@
+EmployeeID,Name,Age,Gender,Department,City,Salary,Experience,PerformanceScore,Education,Remote,HireDate,ExperienceGroup,PerfromanceScoreGroup
+E001,Avery Garcia,46,Female,Sales,Austin,50306,18,4.92,Master,Yes,2020-08-29,11-20 years,4.5+
+E002,Taylor Garcia,30,Female,Marketing,Denver,63316,4,4.53,Bachelor,No,2016-02-09,0-5 years,4.5+
+E003,Quinn Smith,26,Female,Sales,Austin,106884,0,4.03,Bachelor,No,2019-12-19,0-5 years,4 to 4.5
+E004,Quinn Smith,55,Male,Operations,Seattle,53163,29,4.28,High School,No,2024-04-14,20+ years,4 to 4.5
+E005,Jordan Johnson,43,Non-binary,IT,Chicago,87625,18,4.51,Bachelor,No,2016-01-09,11-20 years,4.5+
+E007,Cameron Brown,60,Male,Marketing,Seattle,122020,30,3.29,Bachelor,No,2017-01-23,20+ years,3 to 3.5
+E008,Logan Davis,34,Female,Sales,New York,49321,10,2.72,Bachelor,Yes,2025-05-10,6-10 years,2.5 to 3
+E009,Drew Davis,24,Non-binary,Finance,Boston,115857,1,4.53,Bachelor,No,2021-07-02,0-5 years,4.5+
+E010,Pat Smith,39,Female,Marketing,New York,109573,10,3.72,Master,Yes,2017-09-22,6-10 years,3.5 to 4
+E011,Riley Lee,23,Male,Finance,Seattle,60353,0,4.54,High School,Yes,2024-08-04,0-5 years,4.5+
+E012,Quinn Garcia,36,Non-binary,HR,New York,120217,14,2.81,Bachelor,Yes,2019-05-22,11-20 years,2.5 to 3
+E013,Sam Garcia,27,Male,IT,Chicago,60210,0,4.3,PhD,Yes,2023-02-26,0-5 years,4 to 4.5
+E014,Robin Garcia,25,Male,Finance,New York,116334,3,3.05,Master,No,2019-11-22,0-5 years,3 to 3.5
+E015,Lee Smith,33,Non-binary,HR,Denver,111012,11,4.97,Bachelor,No,2019-01-08,11-20 years,4.5+
+E016,Sam Davis,52,Male,IT,Austin,71661,28,3.82,High School,No,2022-06-19,20+ years,3.5 to 4
+E017,Robin Garcia,33,Non-binary,Finance,Denver,106816,11,3.39,Master,Yes,2021-04-15,11-20 years,3 to 3.5
+E018,Chris Davis,22,Male,Marketing,Austin,55364,0,2.84,PhD,No,2021-11-04,0-5 years,2.5 to 3
+E019,Logan Johnson,40,Non-binary,Finance,Seattle,122368,13,4.37,High School,Yes,2021-09-01,11-20 years,4 to 4.5
+E020,Riley Johnson,34,Non-binary,Sales,Seattle,65981,7,4.28,PhD,Yes,2019-07-06,6-10 years,4 to 4.5
+E021,Jamie Brown,58,Male,Finance,Denver,51131,30,2.89,PhD,Yes,2024-11-29,20+ years,2.5 to 3
+E022,Cameron Brown,24,Male,Sales,Chicago,87722,0,3.87,High School,Yes,2015-03-02,0-5 years,3.5 to 4
+E023,Alex Johnson,47,Male,Operations,New York,86441,19,4.95,High School,Yes,2016-05-02,11-20 years,4.5+
+E024,Avery Davis,60,Male,HR,Seattle,84638,35,4.63,PhD,Yes,2015-03-31,20+ years,4.5+
+E025,Avery Johnson,39,Non-binary,Marketing,Denver,60175,10,4.11,High School,Yes,2018-02-14,6-10 years,4 to 4.5
+E026,Morgan Davis,23,Female,Marketing,Austin,50329,1,4.87,High School,No,2022-12-27,0-5 years,4.5+
+E027,Quinn Johnson,51,Male,Sales,Boston,93817,23,3.23,Bachelor,Yes,2018-01-16,20+ years,3 to 3.5
+E028,Jordan Lee,43,Non-binary,HR,New York,93129,16,3.17,Bachelor,No,2019-01-18,11-20 years,3 to 3.5
+E029,Cameron Smith,47,Female,Operations,Chicago,61992,17,4.83,Master,Yes,2024-08-11,11-20 years,4.5+
+E030,Drew Lee,55,Female,Sales,New York,84671,32,2.75,PhD,No,2018-10-12,20+ years,2.5 to 3
+E031,Taylor Davis,43,Female,Sales,New York,107794,20,3.25,Bachelor,Yes,2022-01-11,11-20 years,3 to 3.5
+E032,Jordan Smith,58,Male,IT,Denver,128739,30,3.05,PhD,Yes,2016-02-06,20+ years,3 to 3.5
+E033,Cameron Brown,47,Female,Marketing,Denver,113026,17,4.2,PhD,Yes,2019-02-17,11-20 years,4 to 4.5
+E034,Jamie Brown,36,Male,Finance,New York,121707,10,2.66,High School,No,2023-06-09,6-10 years,2.5 to 3
+E035,Drew Lee,34,Male,Operations,New York,110154,11,4.99,Bachelor,Yes,2016-03-04,11-20 years,4.5+
+E036,Pat Garcia,34,Male,HR,Boston,94549,5,4.96,Bachelor,No,2022-02-27,0-5 years,4.5+
+E037,Chris Brown,49,Female,Operations,Denver,109933,19,4.69,Bachelor,Yes,2018-10-25,11-20 years,4.5+
+E038,Skyler Johnson,42,Female,Marketing,Chicago,49648,15,4.61,Master,No,2015-09-29,11-20 years,4.5+
+E039,Jordan Johnson,27,Male,HR,Austin,50166,0,2.54,PhD,No,2024-08-31,0-5 years,2.5 to 3
+E040,Pat Garcia,32,Female,Marketing,Boston,105389,8,2.58,High School,Yes,2023-05-18,6-10 years,2.5 to 3
+E041,Quinn Garcia,49,Female,Sales,Seattle,82966,24,4.02,Bachelor,Yes,2022-05-15,20+ years,4 to 4.5
+E042,Skyler Garcia,22,Female,Finance,New York,84641,0,3.73,Master,No,2023-08-31,0-5 years,3.5 to 4
+E043,Sam Johnson,48,Non-binary,IT,Chicago,95289,20,3.22,Master,Yes,2025-07-24,11-20 years,3 to 3.5
+E044,Casey Brown,24,Non-binary,Operations,New York,99770,0,4.18,Bachelor,No,2019-08-12,0-5 years,4 to 4.5
+E045,Lee Smith,24,Male,Sales,Chicago,95683,0,2.55,Bachelor,No,2016-03-07,0-5 years,2.5 to 3
+E046,Drew Brown,57,Male,HR,Boston,70555,30,4.25,Master,Yes,2025-11-15,20+ years,4 to 4.5
+E047,Cameron Davis,40,Non-binary,HR,Boston,95809,16,4.65,Bachelor,Yes,2023-10-09,11-20 years,4.5+
+E048,Morgan Brown,47,Female,Operations,New York,93703,18,4.89,High School,No,2017-11-12,11-20 years,4.5+
+E049,Blake Johnson,23,Male,HR,Denver,119613,0,4.45,PhD,No,2025-08-08,0-5 years,4 to 4.5
+E050,Blake Brown,29,Male,HR,Seattle,100832,5,3.865,PhD,Yes,2023-03-27,0-5 years,3.5 to 4
+E052,Pat Johnson,44,Male,IT,Austin,90278,22,2.68,Bachelor,Yes,2015-01-14,20+ years,2.5 to 3
+E053,Cameron Lee,35,Non-binary,HR,Boston,45941,12,3.08,Bachelor,Yes,2020-02-03,11-20 years,3 to 3.5
+E054,Avery Johnson,29,Male,IT,Austin,90147,0,3.34,Master,No,2025-07-05,0-5 years,3 to 3.5
+E055,Blake Smith,57,Male,Marketing,Boston,69123,30,3.27,PhD,Yes,2025-08-09,20+ years,3 to 3.5
+E057,Jordan Johnson,23,Female,Finance,Boston,55213,0,3.54,Bachelor,No,2018-05-05,0-5 years,3.5 to 4
+E058,Lee Davis,44,Female,Operations,Boston,77513,21,2.64,PhD,Yes,2019-09-05,20+ years,2.5 to 3
+E059,Pat Lee,42,Female,HR,Chicago,71737,13,4.49,Master,Yes,2021-04-05,11-20 years,4 to 4.5
+E060,Drew Johnson,60,Female,Sales,Chicago,103479,36,3.12,PhD,No,2025-07-05,20+ years,3 to 3.5
+E061,Lee Davis,55,Non-binary,HR,Seattle,91578,31,4.39,Master,Yes,2024-04-23,20+ years,4 to 4.5
+E062,Morgan Lee,50,Male,Operations,Austin,46019,21,3.86,Bachelor,No,2022-12-02,20+ years,3.5 to 4
+E063,Riley Garcia,52,Female,Finance,Denver,110231,29,4.96,High School,No,2024-11-28,20+ years,4.5+
+E064,Drew Garcia,24,Non-binary,Operations,Seattle,78629,2,3.61,Master,No,2018-03-06,0-5 years,3.5 to 4
+E065,Jordan Lee,34,Female,Marketing,Austin,49646,11,2.8,Bachelor,Yes,2015-10-06,11-20 years,2.5 to 3
+E066,Skyler Johnson,48,Non-binary,Marketing,Denver,82060,22,3.03,High School,No,2025-09-19,20+ years,3 to 3.5
+E067,Cameron Brown,56,Female,Marketing,Denver,81518,28,2.84,High School,Yes,2019-04-12,20+ years,2.5 to 3
+E068,Quinn Davis,47,Female,Finance,Denver,63288,18,3.68,PhD,Yes,2020-05-06,11-20 years,3.5 to 4
+E069,Dana Davis,53,Male,Sales,Austin,86712,23,2.86,PhD,Yes,2024-12-13,20+ years,2.5 to 3
+E070,Dana Brown,35,Male,Marketing,New York,91583,13,4.22,High School,No,2015-01-27,11-20 years,4 to 4.5
+E071,Logan Smith,45,Female,Operations,Denver,60224,23,3.23,Bachelor,Yes,2023-06-06,20+ years,3 to 3.5
+E072,Taylor Brown,58,Female,Operations,Unknown,70061,32,3.46,Master,No,2022-04-08,20+ years,3 to 3.5
+E073,Casey Garcia,49,Female,IT,Chicago,103627,25,4.78,PhD,No,2023-11-08,20+ years,4.5+
+E074,Drew Davis,46,Male,IT,Seattle,109481,18,4.85,High School,No,2015-05-17,11-20 years,4.5+
+E075,Pat Smith,36,Non-binary,Operations,Denver,69478,13,2.93,Master,Yes,2022-11-27,11-20 years,2.5 to 3
+E076,Robin Brown,54,Male,Operations,Denver,91277,28,3.79,PhD,No,2020-06-30,20+ years,3.5 to 4
+E077,Chris Lee,38,Male,HR,New York,73235,9,2.91,High School,No,2022-05-05,6-10 years,2.5 to 3
+E078,Robin Davis,22,Male,Marketing,Seattle,53347,0,3.89,Bachelor,No,2017-02-28,0-5 years,3.5 to 4
+E079,Jordan Lee,43,Female,Marketing,Seattle,124476,20,4.73,Master,Yes,2020-11-08,11-20 years,4.5+
+E080,Jordan Johnson,24,Non-binary,Finance,Chicago,93326,0,4.59,Master,No,2018-07-02,0-5 years,4.5+
+E081,Dana Lee,55,Non-binary,IT,New York,78376,27,3.865,High School,Yes,2020-03-02,20+ years,3.5 to 4
+E082,Robin Brown,53,Female,Sales,New York,51221,24,2.71,Bachelor,Yes,2024-04-07,20+ years,2.5 to 3
+E083,Lee Garcia,31,Male,Sales,Boston,72979,3,4.39,PhD,Yes,2025-10-02,0-5 years,4 to 4.5
+E084,Riley Johnson,33,Female,Finance,Austin,109227,8,4.99,High School,No,2021-11-03,6-10 years,4.5+
+E085,Lee Garcia,56,Non-binary,Sales,Boston,83881,31,4.09,Master,Yes,2015-03-09,20+ years,4 to 4.5
+E086,Robin Johnson,29,Male,Finance,Denver,67619,6,4.99,High School,No,2024-08-19,6-10 years,4.5+
+E087,Avery Smith,25,Non-binary,Marketing,Austin,95422,2,3.07,Master,Yes,2023-04-19,0-5 years,3 to 3.5
+E088,Cameron Davis,37,Female,IT,Austin,112915,14,4.07,Master,Yes,2016-07-16,11-20 years,4 to 4.5
+E089,Chris Lee,22,Non-binary,Operations,Unknown,111171,0,4.53,PhD,Yes,2025-12-10,0-5 years,4.5+
+E090,Casey Johnson,33,Female,Marketing,Denver,55021,3,4.92,Unknown,Yes,2024-02-26,0-5 years,4.5+
+E092,Lee Lee,60,Male,IT,Boston,109120,33,4.13,PhD,No,2021-02-14,20+ years,4 to 4.5
+E093,Casey Garcia,42,Female,Operations,Chicago,78968,19,4.55,Master,No,2025-08-01,11-20 years,4.5+
+E094,Chris Davis,25,Non-binary,IT,Austin,50018,0,4.66,Bachelor,No,2018-11-10,0-5 years,4.5+
+E095,Pat Garcia,32,Non-binary,HR,Denver,47225,6,4.08,Master,Yes,2020-07-04,6-10 years,4 to 4.5
+E096,Sam Smith,25,Male,Operations,Austin,76649,3,2.67,Unknown,No,2025-11-25,0-5 years,2.5 to 3
+E097,Lee Brown,49,Male,Finance,Austin,73380,25,2.94,Master,No,2019-04-17,20+ years,2.5 to 3
+E098,Quinn Garcia,22,Non-binary,Operations,Denver,79569,0,3.66,High School,Yes,2019-08-02,0-5 years,3.5 to 4
+E099,Skyler Johnson,46,Non-binary,Operations,Boston,45407,22,4.6,Bachelor,Yes,2018-09-13,20+ years,4.5+
+E100,Alex Johnson,37,Non-binary,Operations,Boston,77347,13,2.92,High School,No,2025-05-27,11-20 years,2.5 to 3
+E101,Lee Davis,60,Male,Marketing,Boston,126331,37,2.6,Master,No,2015-04-22,20+ years,2.5 to 3
+E102,Pat Lee,24,Non-binary,IT,Seattle,56746,0,3.09,Master,Yes,2023-04-01,0-5 years,3 to 3.5
+E103,Dana Brown,47,Male,Finance,Boston,80368,20,4.75,PhD,Yes,2023-09-01,11-20 years,4.5+
+E104,Sam Brown,56,Female,Operations,New York,79399,26,3.51,PhD,Yes,2015-03-26,20+ years,3.5 to 4
+E105,Blake Davis,39,Female,Operations,Chicago,78281,17,4.41,Master,No,2024-05-10,11-20 years,4 to 4.5
+E106,Blake Lee,38,Male,Marketing,Denver,60203,13,4.3,Master,Yes,2025-04-11,11-20 years,4 to 4.5
+E107,Blake Smith,31,Non-binary,IT,Austin,46191,4,3.41,Master,No,2020-07-19,0-5 years,3 to 3.5
+E108,Alex Johnson,47,Non-binary,HR,Seattle,67286,19,2.81,High School,No,2025-03-15,11-20 years,2.5 to 3
+E109,Quinn Brown,38,Female,IT,Boston,54207,13,2.92,Bachelor,Yes,2025-07-24,11-20 years,2.5 to 3
+E110,Drew Brown,54,Female,Finance,Austin,124304,24,2.53,Master,No,2021-01-12,20+ years,2.5 to 3
+E111,Chris Johnson,55,Non-binary,Sales,Chicago,86671,25,4.61,Bachelor,No,2019-01-18,20+ years,4.5+
+E112,Robin Davis,51,Non-binary,IT,New York,118609,29,3.41,Bachelor,Yes,2022-01-28,20+ years,3 to 3.5
+E113,Riley Garcia,44,Male,Finance,Chicago,47508,15,4.86,PhD,Yes,2021-06-05,11-20 years,4.5+
+E114,Skyler Davis,50,Male,IT,Chicago,103937,25,3.6,High School,No,2022-02-12,20+ years,3.5 to 4
+E115,Robin Lee,47,Non-binary,Finance,New York,78120,21,3.27,PhD,Yes,2023-07-21,20+ years,3 to 3.5
+E117,Avery Lee,58,Male,Sales,Seattle,118979,34,4.8,Bachelor,Yes,2015-11-30,20+ years,4.5+
+E118,Alex Smith,58,Male,Operations,New York,92319,31,4.18,PhD,Yes,2018-07-12,20+ years,4 to 4.5
+E119,Casey Davis,23,Female,Sales,Denver,96465,0,2.86,Bachelor,No,2024-09-19,0-5 years,2.5 to 3
+E120,Jamie Johnson,41,Male,Sales,Denver,52844,11,4.1,High School,Yes,2024-03-27,11-20 years,4 to 4.5
