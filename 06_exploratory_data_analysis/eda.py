@@ -13,6 +13,8 @@ input_file = BASE_DIR / "data" / "employees.csv"
 
 df = pd.read_csv(input_file)
 
+print(BASE_DIR)
+
 def clean_missing_values(df):
     # Data Cleaning
     df["City"] = df["City"].fillna("Unknown")
@@ -351,3 +353,14 @@ plt.title("Correlation Heatmap")
 
 plt.show()
 plt.close()
+
+output_file = (
+    BASE_DIR
+    / "data"
+    / "employees_clean.csv"
+)
+
+df_without_salary_outliers.to_csv(
+    output_file,
+    index=False
+)
