@@ -45,3 +45,19 @@ Completed projects:
 - outlier impact analysis
 - IQR-based outlier filtering
 - data-driven conclusions
+
+07 - Linear Regression
+- feature selection
+- categorical encoding
+- train/test split
+- linear regression
+- model evaluation
+- coefficient interpretation
+
+08 - Logistic Regression
+- binary classification
+- train/test split
+- logistic regression
+- accuracy
+- confusion matrix
+- classification report
