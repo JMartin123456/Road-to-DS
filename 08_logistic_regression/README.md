@@ -1,5 +1,31 @@
-The Logistic Regression model was trained to classify whether an employee's salary was above or below the median salary.
+# 08 - Logistic Regression
 
-The model achieved an accuracy of approximately 50% on the original dataset and 39% on the dataset without salary outliers. This indicates that the selected features (Experience, PerformanceScore, Education and Department) do not provide enough information to reliably classify employee salaries.
+This project applies Logistic Regression to classify whether an employee belongs to the high salary group.
 
-These findings are consistent with the exploratory data analysis and the Linear Regression project, where no strong relationship between these features and salary was identified.
+The target variable was created by comparing employee salary with the median salary.
+
+The model uses:
+
+- Experience
+- PerformanceScore
+- Education
+- Department
+
+## Results
+
+The model achieved:
+
+- Approximately 50% accuracy on the original dataset
+- Approximately 39% accuracy after removing salary outliers
+
+Evaluation was performed using:
+
+- Accuracy
+- Confusion matrix
+- Classification report
+
+## Conclusion
+
+The selected features were not sufficient to reliably classify employee salary groups.
+
+These results are consistent with previous exploratory analysis and Linear Regression results.

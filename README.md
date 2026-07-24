@@ -1,52 +1,51 @@
-Road to Data Science
+# Road to Data Science
 
-This repository documents my learning Python, Data Analysis and Machine Learning.
+This repository documents my journey learning Python, Data Analysis and Machine Learning.
 
-Completed projects:
+## Completed Projects
 
-01 - Python Refresh
+### 01 - Python Refresh
 - functions
 - dictionaries
 - sorting
-- lambda
+- lambda expressions
 
-02 - Pandas Basics
+### 02 - Pandas Basics
 - CSV loading
 - filtering
 - groupby
 - aggregations
 
-03 - Data Cleaning
+### 03 - Data Cleaning
 - missing values
 - duplicates
-- data types
+- data type handling
 
-04 - Data Visualization
+### 04 - Data Visualization
 - matplotlib
 - histograms
 - bar charts
 - scatter plots
 
-05 - NumPy Statistics
+### 05 - NumPy Statistics
 - statistics
 - percentiles
+- variance and standard deviation
 - outlier detection
 
-06 - Exploratory Data Analysis (EDA)
+### 06 - Exploratory Data Analysis (EDA)
 - data exploration workflow
 - salary analysis
 - group comparisons
 - mean vs median analysis
-- standard deviation analysis
 - correlation analysis
 - heatmaps
 - scatter plots
 - categorical distributions
 - outlier impact analysis
 - IQR-based outlier filtering
-- data-driven conclusions
 
-07 - Linear Regression
+### 07 - Linear Regression
 - feature selection
 - categorical encoding
 - train/test split
@@ -54,10 +53,17 @@ Completed projects:
 - model evaluation
 - coefficient interpretation
 
-08 - Logistic Regression
+### 08 - Logistic Regression
 - binary classification
 - train/test split
 - logistic regression
 - accuracy
 - confusion matrix
 - classification report
+
+### 09 - Decision Tree Classifier
+- decision tree classification
+- feature importance
+- tree depth tuning
+- overfitting and underfitting
+- model evaluation

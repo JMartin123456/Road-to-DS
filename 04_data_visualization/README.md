@@ -1,12 +1,8 @@
-# Employee Data Visualization Project
-
-## Overview
+# 04 - Data Visualization
 
 This project explores employee data using Python, Pandas and Matplotlib.
 
-The goal was to analyze employee distribution, salaries and relationships between variables.
-
----
+The goal was to visualize employee distribution, salary information and relationships between variables.
 
 ## Visualizations
 
@@ -22,12 +18,12 @@ The goal was to analyze employee distribution, salaries and relationships betwee
 
 ### Age Distribution
 
-![Age Distribution](images/age_distribution.png)
+![Age Distribution](images/age_histogram.png)
 
 
 ### Salary vs Age
 
-![Salary vs Age](images/salary_vs_age.png)
+![Salary vs Age](images/age_vs_salary.png)
 
 
 ### Employees by City

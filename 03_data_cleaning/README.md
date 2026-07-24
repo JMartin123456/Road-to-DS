@@ -1,31 +1,20 @@
-# Employee Data Cleaning Project
+# 03 - Data Cleaning
 
-## Goal
+This project focuses on cleaning an employee dataset using Python and Pandas.
 
-Take a raw employee dataset containing missing values, incorrect data types and duplicate record and clean the dataset.
+The goal was to prepare raw data for further analysis by handling missing values, incorrect data types and duplicate records.
 
-## Technologies Used
--Python 3
--Pandas
--pathlib
+## Cleaning Steps
 
-## Dataset
+### Missing Values
 
-The dataset contains employee information:
+Missing values were identified and replaced using appropriate methods depending on the column type.
 
-- Name
-- Age
-- Department
-- Salary
-- City
+### Data Types
 
-## Data Cleaning
-Invalid values
+Incorrect data formats were converted into usable formats.
+
+Example:
+
+```python
 pd.to_numeric(errors="coerce")
-
-Missing values
-groupby("Department").transform("mean")
-
-And remove duplicates
-df.drop_duplicates()
-

@@ -1,5 +1,25 @@
-The linear regression model confirmed the findings from exploratory analysis. Experience and PerformanceScore had only a small positive influence on salary predictions, while education and department effects were inconsistent. Removing salary outliers significantly reduced prediction errors (MAE and RMSE), but the low R² score indicates that the selected features do not sufficiently explain salary variability.
+# 07 - Linear Regression
 
-    Dataset           MAE          RMSE        R2
-0  Original  39648.671763  73354.460965 -0.091469
-0     Clean  22190.164255  26732.835069 -0.279556
+This project applies Linear Regression to predict employee salary based on selected employee features.
+
+The model uses:
+
+- Experience
+- PerformanceScore
+- Education
+- Department
+
+Categorical variables were converted using one-hot encoding before training the model.
+
+## Results
+
+| Dataset | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Original | 39648.67 | 73354.46 | -0.09 |
+| Clean | 22190.16 | 26732.84 | -0.28 |
+
+## Conclusion
+
+The model confirmed the findings from exploratory analysis.
+
+Removing salary outliers reduced prediction errors, but the low R² score indicates that the selected features were not sufficient to explain salary variability.

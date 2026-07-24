@@ -1,7 +1,25 @@
-The dataset was generated using ChatGPT and represents employee information. It contains data for 120 employees with 12 attributes describing different employee characteristics.
+# 06 - Exploratory Data Analysis (EDA)
 
-The main focus of the analysis was understanding salary distribution and identifying possible relationships between salary and other employee attributes, including experience, performance score, education, and department.
+This project explores an employee dataset and analyzes possible relationships between salary and employee characteristics.
 
-During the exploratory data analysis, duplicate records, missing values, and extreme salary values were identified and handled. Salary outliers had a significant impact on statistical measures such as mean, standard deviation, and correlation results, therefore the analysis was compared both before and after outlier removal.
+The dataset contains employee information including experience, performance score, education and department.
 
-No strong linear relationship was found between salary and experience, education level, or performance score. The only strong correlation identified was between age and experience, which indicates that the dataset structure is logically consistent.
+## Analysis
+
+The analysis focused on:
+
+- Salary distribution
+- Salary differences between departments
+- Experience vs salary relationship
+- Education vs salary relationship
+- Performance score vs salary relationship
+- Correlation analysis
+- Impact of salary outliers
+
+Data quality issues such as missing values, duplicates and extreme salary values were identified and handled.
+
+## Conclusion
+
+The analysis showed that salary was influenced by multiple factors, but no strong linear relationship was found between salary and individual features such as experience, education or performance score.
+
+Salary outliers had a significant impact on statistical results, especially mean values and correlations.
