@@ -2,6 +2,8 @@
 
 This repository documents my journey learning Python, Data Analysis and Machine Learning.
 
+The projects follow a step-by-step progression from Python fundamentals and data analysis to machine learning models, evaluation techniques and model interpretation.
+
 ## Completed Projects
 
 ### 01 - Python Refresh
@@ -67,3 +69,41 @@ This repository documents my journey learning Python, Data Analysis and Machine 
 - tree depth tuning
 - overfitting and underfitting
 - model evaluation
+
+### 10 - K-Nearest Neighbors Classifier
+- KNN classification
+- distance-based learning
+- feature scaling
+- K parameter comparison
+- model evaluation
+
+### 11 - Support Vector Machine Classifier
+- SVM classification
+- feature scaling
+- kernel comparison
+- linear, RBF and polynomial kernels
+- model evaluation
+
+### 12 - Model Evaluation and Comparison
+- comparing classification models
+- accuracy comparison
+- confusion matrix analysis
+- classification metrics
+
+### 13 - Cross Validation
+- K-fold cross validation
+- cross validation scores
+- model stability evaluation
+- reducing dependency on single train/test split
+
+### 14 - Hyperparameter Tuning with GridSearchCV
+- GridSearchCV
+- hyperparameter optimization
+- Random Forest tuning
+- cross validation during parameter search
+
+### 15 - Feature Importance Analysis
+- Random Forest feature importance
+- permutation importance
+- model interpretation
+- comparing internal and external feature importance
