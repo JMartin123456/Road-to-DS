@@ -2,7 +2,7 @@
 
 This repository documents my journey learning Python, Data Analysis and Machine Learning.
 
-The projects follow a step-by-step progression from Python fundamentals and data analysis to machine learning models, evaluation techniques and model interpretation.
+The projects follow a step-by-step progression from Python fundamentals and data analysis to machine learning models, model evaluation, optimization techniques and model interpretation.
 
 ## Completed Projects
 
@@ -107,3 +107,10 @@ The projects follow a step-by-step progression from Python fundamentals and data
 - permutation importance
 - model interpretation
 - comparing internal and external feature importance
+
+### 16 - ROC Curve and AUC Evaluation
+- ROC curve
+- AUC score
+- threshold evaluation
+- probability-based classification evaluation
+- Logistic Regression performance analysis
