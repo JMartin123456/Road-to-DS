@@ -114,3 +114,11 @@ The projects follow a step-by-step progression from Python fundamentals and data
 - threshold evaluation
 - probability-based classification evaluation
 - Logistic Regression performance analysis
+
+### 17 - Complete Machine Learning Pipeline
+- ColumnTransformer
+- Pipeline
+- StandardScaler
+- OneHotEncoder
+- automated preprocessing
+- Logistic Regression
