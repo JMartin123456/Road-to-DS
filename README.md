@@ -122,3 +122,10 @@ The projects follow a step-by-step progression from Python fundamentals and data
 - OneHotEncoder
 - automated preprocessing
 - Logistic Regression
+
+### 18 - Handling Imbalanced Data
+- imbalanced datasets
+- class_weight
+- minority class detection
+- accuracy vs recall
+- Logistic Regression
