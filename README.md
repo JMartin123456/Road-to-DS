@@ -129,3 +129,9 @@ The projects follow a step-by-step progression from Python fundamentals and data
 - minority class detection
 - accuracy vs recall
 - Logistic Regression
+
+### 19 - Precision-Recall Curve
+- precision and recall trade-off
+- Precision-Recall Curve
+- Average Precision Score
+- evaluating imbalanced classification models
