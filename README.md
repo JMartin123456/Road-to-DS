@@ -143,3 +143,11 @@ The projects follow a step-by-step progression from Python fundamentals and data
 * model reuse without retraining
 * saving complete ML pipelines
 * verifying identical predictions after loading
+
+### 21 - Feature Engineering
+
+* creating new features from existing data
+* feature interaction
+* `ExperienceScore`
+* evaluating feature impact on model performance
+* comparing model performance before and after feature engineering
