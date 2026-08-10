@@ -135,3 +135,11 @@ The projects follow a step-by-step progression from Python fundamentals and data
 - Precision-Recall Curve
 - Average Precision Score
 - evaluating imbalanced classification models
+
+### 20 - Model Persistence
+
+* saving trained models with `joblib`
+* loading saved models
+* model reuse without retraining
+* saving complete ML pipelines
+* verifying identical predictions after loading
