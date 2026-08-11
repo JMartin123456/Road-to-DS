@@ -151,3 +151,12 @@ The projects follow a step-by-step progression from Python fundamentals and data
 * `ExperienceScore`
 * evaluating feature impact on model performance
 * comparing model performance before and after feature engineering
+
+### 22 - Logistic Regression Interpretation
+* Logistic Regression coefficients
+* coefficient direction
+* absolute coefficient values
+* Odds Ratio
+* categorical reference categories
+* interpreting model relationships
+* understanding association vs causation
