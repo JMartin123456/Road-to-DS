@@ -160,3 +160,14 @@ The projects follow a step-by-step progression from Python fundamentals and data
 * categorical reference categories
 * interpreting model relationships
 * understanding association vs causation
+
+### 23 - Ensemble Learning
+
+* ensemble learning
+* Hard Voting
+* Soft Voting
+* Stacking
+* combining multiple classification models
+* comparing ensemble approaches
+* limitations of ensemble methods on small and imbalanced datasets
+* accuracy vs minority class performance
