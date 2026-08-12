@@ -171,3 +171,65 @@ The projects follow a step-by-step progression from Python fundamentals and data
 * comparing ensemble approaches
 * limitations of ensemble methods on small and imbalanced datasets
 * accuracy vs minority class performance
+
+### 24 - Gradient Boosting
+
+- Gradient Boosting classification
+- sequential ensemble learning
+- `GradientBoostingClassifier`
+- hyperparameter tuning with `GridSearchCV`
+- `n_estimators`
+- `learning_rate`
+- `max_depth`
+- F1-based model optimization
+- comparing accuracy and minority class performance
+- limitations of Gradient Boosting on highly imbalanced data
+
+### 25 - Final Model Comparison
+
+- comparing Logistic Regression, Random Forest, SVM and Gradient Boosting
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Average Precision
+- model comparison on an imbalanced dataset
+- understanding why accuracy alone can be misleading
+- selecting a model based on the requirements of the problem
+
+## Final Model Comparison
+
+The final project compared several classification models:
+
+- Logistic Regression
+- Random Forest
+- SVM
+- Gradient Boosting
+
+The models were evaluated using multiple metrics rather than accuracy alone.
+
+Logistic Regression achieved the highest Recall and Average Precision on the test set, while Random Forest and SVM achieved higher accuracy but failed to detect the positive class.
+
+This final comparison demonstrated the importance of choosing evaluation metrics based on the actual problem rather than selecting a model based only on accuracy.
+
+## Final Takeaways
+
+Throughout the project I learned how to:
+
+- prepare and clean datasets
+- perform exploratory data analysis
+- build regression and classification models
+- preprocess numerical and categorical features
+- use pipelines and ColumnTransformer
+- evaluate models using multiple metrics
+- work with imbalanced datasets
+- perform cross validation
+- tune hyperparameters with GridSearchCV
+- interpret Logistic Regression coefficients and Odds Ratios
+- analyze feature importance
+- use Precision-Recall and ROC curves
+- save and load trained models
+- compare multiple machine learning models
+- select models based on the requirements of the problem
+
+The project progressed from basic Python and data analysis to building, evaluating, interpreting and comparing complete machine learning workflows.
