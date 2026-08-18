@@ -1,0 +1,30 @@
+Missing values:
+B6
+B14
+B51
+C22
+C29
+D41
+D51
+
+Product Names starting with blank space:
+B3
+B23
+B24
+B37
+B43
+
+Invalid Price:
+D15 - seventy nine
+D17 - New product offering
+D20 - Outdoors
+D43 - seventy nine
+
+Duplicate Product ID:
+A5 - 1004
+A10 - 1004
+A42 - 1041
+A43 - 1041
+
+Other suspicious issues:
+E23 - Description may be incomplete

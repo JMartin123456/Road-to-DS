@@ -1,0 +1,35 @@
+## AI Usage & Verification
+
+Pri projekte som používal ChatGPT ako pomoc pri programovaní a hlavne
+pri zisťovaní, ako webová stránka načítava údaje o bytoch.
+
+Najväčší problém bol, že som pôvodne hľadal funkciu `showFlat()` v
+JavaScripte. Tá sa však v `map.js` nenachádzala. Po preskúmaní stránky
+som zistil, že údaje o bytoch sú dostupné priamo v `flats.json`, čo
+umožnilo vytvoriť scraper jednoduchšie.
+
+AI mi pomohla najmä s:
+- pochopením štruktúry stránky,
+- získaním dát z JSON,
+- úpravou Python kódu,
+- čistením dát,
+- validáciou,
+- vytvorením základných grafov.
+
+Výsledky som manuálne overil porovnaním s dátami zo stránky a kontrolou
+počtu záznamov, cien, výmer a ID bytov.
+
+AI sa na začiatku zamerala na hľadanie funkcie `showFlat()` v
+JavaScripte. Táto funkcia však nebola priamo v `map.js`, preto som
+musel overiť, odkiaľ sa dáta skutočne načítavajú. Nakoniec sa ukázalo,
+že dostupné údaje sú priamo v `flats.json`.
+
+Navrhnuté riešenia som upravil podľa štruktúry môjho projektu a ponechal
+som iba funkcie potrebné pre zadanie. Napríklad som nepoužil Streamlit
+ani change detection, keďže išlo o voliteľné bonusy.
+
+Príklady použitých promptov:
+
+1. „Ako zistiť, odkiaľ webová stránka načítava údaje o bytoch?“
+2. „Ako môžem použiť flats.json na vytvorenie pandas DataFrame?“
+3. „Môžeš skontrolovať môj scraper a navrhnúť jednoduchšie riešenie?“

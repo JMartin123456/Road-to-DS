@@ -1,0 +1,18 @@
+Validation Summary
+------------------
+
+Scraper získal celkovo 1033 záznamov.
+
+Celkový počet bytov: 1033
+Chýbajúce ID bytov: 0
+Chýbajúce ceny: 945
+Chýbajúce výmery: 0
+Duplicitné ID: 0
+Duplicitné URL: 0
+
+Validácia ukazuje, že všetky byty majú pridelené ID a výmeru.
+V dátach sa nenachádzajú duplicitné ID ani URL.
+
+Veľký počet chýbajúcich cien je spôsobený zdrojovými dátami zo stránky.
+Pri mnohých bytoch webová stránka cenu neposkytuje, napríklad pri
+predaných alebo rezervovaných bytoch.
