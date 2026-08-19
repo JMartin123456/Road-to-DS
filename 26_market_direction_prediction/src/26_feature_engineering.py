@@ -151,33 +151,92 @@ df["Volatility_Ratio_5_20"] = (
     / df["Volatility_20"]
 )
 
-print("\nVolatility features:")
+# print("\nVolatility features:")
+
+# print(
+#     df[
+#         [
+#             "Date",
+#             "Return_1d",
+#             "Volatility_5",
+#             "Volatility_20",
+#             "Volatility_50",
+#             "Volatility_Ratio_5_20",
+#             "Target"
+#         ]
+#     ].tail(10)
+# )
+
+# print("\nVolatility statistics:")
+
+# print(
+#     df[
+#         [
+#             "Volatility_5",
+#             "Volatility_20",
+#             "Volatility_50",
+#             "Volatility_Ratio_5_20"
+#         ]
+#     ].describe()
+# )
+
+# ====================================
+# Price Action Features
+# ====================================
+
+df["High_Low_Range_Pct"] = (
+    (df["High"] - df["Low"])
+    / df["Close"]
+)
+
+df["Open_Close_Range_Pct"] = (
+    (df["Close"] - df["Open"])
+    / df["Open"]
+)
+
+df["Body_Size_Pct"] = (
+    abs(df["Close"] - df["Open"])
+    / df["Open"]
+)
+
+df["Upper_Wick"] = (
+    df["High"]
+    - df[["Open", "Close"]].max(axis=1)
+)
+
+df["Lower_Wick"] = (
+    df[["Open", "Close"]].min(axis=1)
+    - df["Low"]
+)
+
+df["Upper_Wick_Pct"] = (
+    df["Upper_Wick"]
+    / df["Close"]
+)
+
+df["Lower_Wick_Pct"] = (
+    df["Lower_Wick"]
+    / df["Close"]
+)
+
+print("\nPrice action features:")
 
 print(
     df[
         [
             "Date",
-            "Return_1d",
-            "Volatility_5",
-            "Volatility_20",
-            "Volatility_50",
-            "Volatility_Ratio_5_20",
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "High_Low_Range_Pct",
+            "Open_Close_Range_Pct",
+            "Body_Size_Pct",
+            "Upper_Wick_Pct",
+            "Lower_Wick_Pct",
             "Target"
         ]
     ].tail(10)
-)
-
-print("\nVolatility statistics:")
-
-print(
-    df[
-        [
-            "Volatility_5",
-            "Volatility_20",
-            "Volatility_50",
-            "Volatility_Ratio_5_20"
-        ]
-    ].describe()
 )
 
 
