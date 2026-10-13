@@ -1,93 +1,55 @@
-# 1
+def get_positive_numbers(numbers):
+    results = []
 
-def sum_even(numbers):
-    total = 0
     for number in numbers:
-        if number % 2 == 0:
-            total += number
-    return total
+        if(number > 0):
+            results.append(number)
 
-list = [1, 2, 3, 4, 5, 6]
-print(sum_even(list))
+    return results
 
+def calculate_positive_average(numbers):
+    total = 0
+    count = 0
+    average = 0
 
-# 2
+    for number in numbers:
+        if(number > 0):
+            sum += number
+            count += 1
 
-def reverse_string(text):
-    reverse_text = ""
-    for char in text:
-        reverse_text = char + reverse_text
-    print(reverse_text)
+    if(count > 0):
+        average = sum / count
+
+    return average
+
+def find_longest_word(words):
+    maxlen = 0
+    longestword = ""
+
+    for word in words:
+        if(len(word) > maxlen):
+            longestword = word
+            maxlen = len(word)
+
+    return longestword
+
+def find_largest_number(numbers):
+    if not numbers:
+        return None
     
-reverse_me = "abc"
-reverse_string(reverse_me)
+    maxnumber = numbers[0]
 
-# 3
+    for number in numbers:
+        if(number > maxnumber):
+            maxnumber = number
 
-def is_palindrom(text):
-    text_len = len(text)
-    for number in range(len(text)):
-        if text[number].lower() != text[text_len - 1].lower():
-            return False
-        text_len -= 1
-    return True    
+    return maxnumber
 
-palindrom_string = "Radar"
-not_palindrom_string = "notradar"
+def count_vowels(text):
+    vowel_count = 0
 
-print(is_palindrom(palindrom_string))
+    for char in text:
+        if char in "aeiou":
+            vowel_count += 1
 
-# 4
-
-def get_adults(users):
-    adults = []
-    for user in users:
-        if user.get("age", 0) >= 18:
-            adults.append(user["name"])
-    return adults
-
-users = [
-    {"name": "Peter", "age": 25},
-    {"name": "Jana", "age": 17},
-    {"name": "Martin", "age": 31},
-    {"name": "Eva", "age": 16},
-]
-
-print(get_adults(users))
-
-# 5
-
-def users_to_dict(users):
-    result = {}
-    for user in users:
-        result[user["name"]] = user.get("age", 0)
-    return result
-
-users = [
-    {"name": "Peter", "age": 25},
-    {"name": "Jana", "age": 17},
-    {"name": "Martin", "age": 31},
-]
-
-print(users_to_dict(users))
-
-# 6
-
-def count_errors(logs):
-    total_errors = 0
-    for log in logs:
-        splitted = log.split()
-        if splitted[0] == "ERROR":
-            total_errors += 1
-    return total_errors
-
-logs = [
-    "INFO User logged in",
-    "ERROR Database failed",
-    "INFO User logged out",
-    "WARNING Disk almost full",
-    "ERROR Timeout",
-    "ERROR Connection refused",
-]
-
-print(count_errors(logs))
+    return vowel_count
